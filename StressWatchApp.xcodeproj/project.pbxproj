@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C5FEC8AD2DAA63B300962027 /* StressWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C5FEC8AC2DAA63B300962027 /* StressWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C5C0ECD12DAB877400A8AA7D /* StressWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C5C0ECD02DAB877400A8AA7D /* StressWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C5FEC8AE2DAA63B300962027 /* PBXContainerItemProxy */ = {
+		C5C0ECD22DAB877400A8AA7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C5FEC8A02DAA63B300962027 /* Project object */;
+			containerPortal = C5C0ECC42DAB877400A8AA7D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C5FEC8AB2DAA63B300962027;
+			remoteGlobalIDString = C5C0ECCF2DAB877400A8AA7D;
 			remoteInfo = "StressWatchApp Watch App";
 		};
-		C5FEC8BC2DAA63B500962027 /* PBXContainerItemProxy */ = {
+		C5C0ECE02DAB877600A8AA7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C5FEC8A02DAA63B300962027 /* Project object */;
+			containerPortal = C5C0ECC42DAB877400A8AA7D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C5FEC8AB2DAA63B300962027;
+			remoteGlobalIDString = C5C0ECCF2DAB877400A8AA7D;
 			remoteInfo = "StressWatchApp Watch App";
 		};
-		C5FEC8C62DAA63B500962027 /* PBXContainerItemProxy */ = {
+		C5C0ECEA2DAB877600A8AA7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C5FEC8A02DAA63B300962027 /* Project object */;
+			containerPortal = C5C0ECC42DAB877400A8AA7D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C5FEC8AB2DAA63B300962027;
+			remoteGlobalIDString = C5C0ECCF2DAB877400A8AA7D;
 			remoteInfo = "StressWatchApp Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C5FEC8D22DAA63B500962027 /* Embed Watch Content */ = {
+		C5C0ECF62DAB877600A8AA7D /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				C5FEC8AD2DAA63B300962027 /* StressWatchApp Watch App.app in Embed Watch Content */,
+				C5C0ECD12DAB877400A8AA7D /* StressWatchApp Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,37 +49,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C5FEC8A62DAA63B300962027 /* StressWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StressWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5FEC8AC2DAA63B300962027 /* StressWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StressWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5FEC8BB2DAA63B500962027 /* StressWatchApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StressWatchApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5FEC8C52DAA63B500962027 /* StressWatchApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StressWatchApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C0ECCA2DAB877400A8AA7D /* StressWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StressWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C0ECD02DAB877400A8AA7D /* StressWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StressWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C0ECDF2DAB877600A8AA7D /* StressWatchApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StressWatchApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C0ECE92DAB877600A8AA7D /* StressWatchApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StressWatchApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C5FEC8EA2DAA6DF400962027 /* Exceptions for "StressWatchApp Watch App" folder in "StressWatchApp Watch App" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = C5FEC8AB2DAA63B300962027 /* StressWatchApp Watch App */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C5FEC8B02DAA63B300962027 /* StressWatchApp Watch App */ = {
+		C5C0ECD42DAB877400A8AA7D /* StressWatchApp Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C5FEC8EA2DAA6DF400962027 /* Exceptions for "StressWatchApp Watch App" folder in "StressWatchApp Watch App" target */,
-			);
 			path = "StressWatchApp Watch App";
 			sourceTree = "<group>";
 		};
-		C5FEC8BE2DAA63B500962027 /* StressWatchApp Watch AppTests */ = {
+		C5C0ECE22DAB877600A8AA7D /* StressWatchApp Watch AppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "StressWatchApp Watch AppTests";
 			sourceTree = "<group>";
 		};
-		C5FEC8C82DAA63B500962027 /* StressWatchApp Watch AppUITests */ = {
+		C5C0ECEC2DAB877600A8AA7D /* StressWatchApp Watch AppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "StressWatchApp Watch AppUITests";
 			sourceTree = "<group>";
@@ -87,21 +74,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C5FEC8A92DAA63B300962027 /* Frameworks */ = {
+		C5C0ECCD2DAB877400A8AA7D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5FEC8B82DAA63B500962027 /* Frameworks */ = {
+		C5C0ECDC2DAB877600A8AA7D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5FEC8C22DAA63B500962027 /* Frameworks */ = {
+		C5C0ECE62DAB877600A8AA7D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -111,23 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C5FEC89F2DAA63B300962027 = {
+		C5C0ECC32DAB877400A8AA7D = {
 			isa = PBXGroup;
 			children = (
-				C5FEC8B02DAA63B300962027 /* StressWatchApp Watch App */,
-				C5FEC8BE2DAA63B500962027 /* StressWatchApp Watch AppTests */,
-				C5FEC8C82DAA63B500962027 /* StressWatchApp Watch AppUITests */,
-				C5FEC8A72DAA63B300962027 /* Products */,
+				C5C0ECD42DAB877400A8AA7D /* StressWatchApp Watch App */,
+				C5C0ECE22DAB877600A8AA7D /* StressWatchApp Watch AppTests */,
+				C5C0ECEC2DAB877600A8AA7D /* StressWatchApp Watch AppUITests */,
+				C5C0ECCB2DAB877400A8AA7D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C5FEC8A72DAA63B300962027 /* Products */ = {
+		C5C0ECCB2DAB877400A8AA7D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5FEC8A62DAA63B300962027 /* StressWatchApp.app */,
-				C5FEC8AC2DAA63B300962027 /* StressWatchApp Watch App.app */,
-				C5FEC8BB2DAA63B500962027 /* StressWatchApp Watch AppTests.xctest */,
-				C5FEC8C52DAA63B500962027 /* StressWatchApp Watch AppUITests.xctest */,
+				C5C0ECCA2DAB877400A8AA7D /* StressWatchApp.app */,
+				C5C0ECD02DAB877400A8AA7D /* StressWatchApp Watch App.app */,
+				C5C0ECDF2DAB877600A8AA7D /* StressWatchApp Watch AppTests.xctest */,
+				C5C0ECE92DAB877600A8AA7D /* StressWatchApp Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,164 +122,164 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C5FEC8A52DAA63B300962027 /* StressWatchApp */ = {
+		C5C0ECC92DAB877400A8AA7D /* StressWatchApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5FEC8D32DAA63B500962027 /* Build configuration list for PBXNativeTarget "StressWatchApp" */;
+			buildConfigurationList = C5C0ECF72DAB877600A8AA7D /* Build configuration list for PBXNativeTarget "StressWatchApp" */;
 			buildPhases = (
-				C5FEC8A42DAA63B300962027 /* Resources */,
-				C5FEC8D22DAA63B500962027 /* Embed Watch Content */,
+				C5C0ECC82DAB877400A8AA7D /* Resources */,
+				C5C0ECF62DAB877600A8AA7D /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C5FEC8AF2DAA63B300962027 /* PBXTargetDependency */,
+				C5C0ECD32DAB877400A8AA7D /* PBXTargetDependency */,
 			);
 			name = StressWatchApp;
 			packageProductDependencies = (
 			);
 			productName = StressWatchApp;
-			productReference = C5FEC8A62DAA63B300962027 /* StressWatchApp.app */;
+			productReference = C5C0ECCA2DAB877400A8AA7D /* StressWatchApp.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		C5FEC8AB2DAA63B300962027 /* StressWatchApp Watch App */ = {
+		C5C0ECCF2DAB877400A8AA7D /* StressWatchApp Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5FEC8CF2DAA63B500962027 /* Build configuration list for PBXNativeTarget "StressWatchApp Watch App" */;
+			buildConfigurationList = C5C0ECF32DAB877600A8AA7D /* Build configuration list for PBXNativeTarget "StressWatchApp Watch App" */;
 			buildPhases = (
-				C5FEC8A82DAA63B300962027 /* Sources */,
-				C5FEC8A92DAA63B300962027 /* Frameworks */,
-				C5FEC8AA2DAA63B300962027 /* Resources */,
+				C5C0ECCC2DAB877400A8AA7D /* Sources */,
+				C5C0ECCD2DAB877400A8AA7D /* Frameworks */,
+				C5C0ECCE2DAB877400A8AA7D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C5FEC8B02DAA63B300962027 /* StressWatchApp Watch App */,
+				C5C0ECD42DAB877400A8AA7D /* StressWatchApp Watch App */,
 			);
 			name = "StressWatchApp Watch App";
 			packageProductDependencies = (
 			);
 			productName = "StressWatchApp Watch App";
-			productReference = C5FEC8AC2DAA63B300962027 /* StressWatchApp Watch App.app */;
+			productReference = C5C0ECD02DAB877400A8AA7D /* StressWatchApp Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C5FEC8BA2DAA63B500962027 /* StressWatchApp Watch AppTests */ = {
+		C5C0ECDE2DAB877600A8AA7D /* StressWatchApp Watch AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5FEC8D62DAA63B500962027 /* Build configuration list for PBXNativeTarget "StressWatchApp Watch AppTests" */;
+			buildConfigurationList = C5C0ECFA2DAB877600A8AA7D /* Build configuration list for PBXNativeTarget "StressWatchApp Watch AppTests" */;
 			buildPhases = (
-				C5FEC8B72DAA63B500962027 /* Sources */,
-				C5FEC8B82DAA63B500962027 /* Frameworks */,
-				C5FEC8B92DAA63B500962027 /* Resources */,
+				C5C0ECDB2DAB877600A8AA7D /* Sources */,
+				C5C0ECDC2DAB877600A8AA7D /* Frameworks */,
+				C5C0ECDD2DAB877600A8AA7D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C5FEC8BD2DAA63B500962027 /* PBXTargetDependency */,
+				C5C0ECE12DAB877600A8AA7D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C5FEC8BE2DAA63B500962027 /* StressWatchApp Watch AppTests */,
+				C5C0ECE22DAB877600A8AA7D /* StressWatchApp Watch AppTests */,
 			);
 			name = "StressWatchApp Watch AppTests";
 			packageProductDependencies = (
 			);
 			productName = "StressWatchApp Watch AppTests";
-			productReference = C5FEC8BB2DAA63B500962027 /* StressWatchApp Watch AppTests.xctest */;
+			productReference = C5C0ECDF2DAB877600A8AA7D /* StressWatchApp Watch AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C5FEC8C42DAA63B500962027 /* StressWatchApp Watch AppUITests */ = {
+		C5C0ECE82DAB877600A8AA7D /* StressWatchApp Watch AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5FEC8D92DAA63B500962027 /* Build configuration list for PBXNativeTarget "StressWatchApp Watch AppUITests" */;
+			buildConfigurationList = C5C0ECFD2DAB877600A8AA7D /* Build configuration list for PBXNativeTarget "StressWatchApp Watch AppUITests" */;
 			buildPhases = (
-				C5FEC8C12DAA63B500962027 /* Sources */,
-				C5FEC8C22DAA63B500962027 /* Frameworks */,
-				C5FEC8C32DAA63B500962027 /* Resources */,
+				C5C0ECE52DAB877600A8AA7D /* Sources */,
+				C5C0ECE62DAB877600A8AA7D /* Frameworks */,
+				C5C0ECE72DAB877600A8AA7D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C5FEC8C72DAA63B500962027 /* PBXTargetDependency */,
+				C5C0ECEB2DAB877600A8AA7D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C5FEC8C82DAA63B500962027 /* StressWatchApp Watch AppUITests */,
+				C5C0ECEC2DAB877600A8AA7D /* StressWatchApp Watch AppUITests */,
 			);
 			name = "StressWatchApp Watch AppUITests";
 			packageProductDependencies = (
 			);
 			productName = "StressWatchApp Watch AppUITests";
-			productReference = C5FEC8C52DAA63B500962027 /* StressWatchApp Watch AppUITests.xctest */;
+			productReference = C5C0ECE92DAB877600A8AA7D /* StressWatchApp Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C5FEC8A02DAA63B300962027 /* Project object */ = {
+		C5C0ECC42DAB877400A8AA7D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					C5FEC8A52DAA63B300962027 = {
+					C5C0ECC92DAB877400A8AA7D = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					C5FEC8AB2DAA63B300962027 = {
+					C5C0ECCF2DAB877400A8AA7D = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					C5FEC8BA2DAA63B500962027 = {
+					C5C0ECDE2DAB877600A8AA7D = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = C5FEC8AB2DAA63B300962027;
+						TestTargetID = C5C0ECCF2DAB877400A8AA7D;
 					};
-					C5FEC8C42DAA63B500962027 = {
+					C5C0ECE82DAB877600A8AA7D = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = C5FEC8AB2DAA63B300962027;
+						TestTargetID = C5C0ECCF2DAB877400A8AA7D;
 					};
 				};
 			};
-			buildConfigurationList = C5FEC8A32DAA63B300962027 /* Build configuration list for PBXProject "StressWatchApp" */;
+			buildConfigurationList = C5C0ECC72DAB877400A8AA7D /* Build configuration list for PBXProject "StressWatchApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = C5FEC89F2DAA63B300962027;
+			mainGroup = C5C0ECC32DAB877400A8AA7D;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C5FEC8A72DAA63B300962027 /* Products */;
+			productRefGroup = C5C0ECCB2DAB877400A8AA7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5FEC8A52DAA63B300962027 /* StressWatchApp */,
-				C5FEC8AB2DAA63B300962027 /* StressWatchApp Watch App */,
-				C5FEC8BA2DAA63B500962027 /* StressWatchApp Watch AppTests */,
-				C5FEC8C42DAA63B500962027 /* StressWatchApp Watch AppUITests */,
+				C5C0ECC92DAB877400A8AA7D /* StressWatchApp */,
+				C5C0ECCF2DAB877400A8AA7D /* StressWatchApp Watch App */,
+				C5C0ECDE2DAB877600A8AA7D /* StressWatchApp Watch AppTests */,
+				C5C0ECE82DAB877600A8AA7D /* StressWatchApp Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C5FEC8A42DAA63B300962027 /* Resources */ = {
+		C5C0ECC82DAB877400A8AA7D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5FEC8AA2DAA63B300962027 /* Resources */ = {
+		C5C0ECCE2DAB877400A8AA7D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5FEC8B92DAA63B500962027 /* Resources */ = {
+		C5C0ECDD2DAB877600A8AA7D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5FEC8C32DAA63B500962027 /* Resources */ = {
+		C5C0ECE72DAB877600A8AA7D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -302,21 +289,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C5FEC8A82DAA63B300962027 /* Sources */ = {
+		C5C0ECCC2DAB877400A8AA7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5FEC8B72DAA63B500962027 /* Sources */ = {
+		C5C0ECDB2DAB877600A8AA7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5FEC8C12DAA63B500962027 /* Sources */ = {
+		C5C0ECE52DAB877600A8AA7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,25 +313,25 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C5FEC8AF2DAA63B300962027 /* PBXTargetDependency */ = {
+		C5C0ECD32DAB877400A8AA7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C5FEC8AB2DAA63B300962027 /* StressWatchApp Watch App */;
-			targetProxy = C5FEC8AE2DAA63B300962027 /* PBXContainerItemProxy */;
+			target = C5C0ECCF2DAB877400A8AA7D /* StressWatchApp Watch App */;
+			targetProxy = C5C0ECD22DAB877400A8AA7D /* PBXContainerItemProxy */;
 		};
-		C5FEC8BD2DAA63B500962027 /* PBXTargetDependency */ = {
+		C5C0ECE12DAB877600A8AA7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C5FEC8AB2DAA63B300962027 /* StressWatchApp Watch App */;
-			targetProxy = C5FEC8BC2DAA63B500962027 /* PBXContainerItemProxy */;
+			target = C5C0ECCF2DAB877400A8AA7D /* StressWatchApp Watch App */;
+			targetProxy = C5C0ECE02DAB877600A8AA7D /* PBXContainerItemProxy */;
 		};
-		C5FEC8C72DAA63B500962027 /* PBXTargetDependency */ = {
+		C5C0ECEB2DAB877600A8AA7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C5FEC8AB2DAA63B300962027 /* StressWatchApp Watch App */;
-			targetProxy = C5FEC8C62DAA63B500962027 /* PBXContainerItemProxy */;
+			target = C5C0ECCF2DAB877400A8AA7D /* StressWatchApp Watch App */;
+			targetProxy = C5C0ECEA2DAB877600A8AA7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		C5FEC8CD2DAA63B500962027 /* Debug */ = {
+		C5C0ECF12DAB877600A8AA7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -406,7 +393,7 @@
 			};
 			name = Debug;
 		};
-		C5FEC8CE2DAA63B500962027 /* Release */ = {
+		C5C0ECF22DAB877600A8AA7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -460,18 +447,16 @@
 			};
 			name = Release;
 		};
-		C5FEC8D02DAA63B500962027 /* Debug */ = {
+		C5C0ECF42DAB877600A8AA7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "StressWatchApp Watch App/StressWatchApp Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8YP6GH5LF7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/StressWatchApp Watch App/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = StressWatchApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -487,22 +472,20 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
 			};
 			name = Debug;
 		};
-		C5FEC8D12DAA63B500962027 /* Release */ = {
+		C5C0ECF52DAB877600A8AA7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "StressWatchApp Watch App/StressWatchApp Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8YP6GH5LF7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/StressWatchApp Watch App/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = StressWatchApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -519,11 +502,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
 			};
 			name = Release;
 		};
-		C5FEC8D42DAA63B500962027 /* Debug */ = {
+		C5C0ECF82DAB877600A8AA7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -538,7 +521,7 @@
 			};
 			name = Debug;
 		};
-		C5FEC8D52DAA63B500962027 /* Release */ = {
+		C5C0ECF92DAB877600A8AA7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -554,7 +537,7 @@
 			};
 			name = Release;
 		};
-		C5FEC8D72DAA63B500962027 /* Debug */ = {
+		C5C0ECFB2DAB877600A8AA7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -570,11 +553,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StressWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StressWatchApp Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
 			};
 			name = Debug;
 		};
-		C5FEC8D82DAA63B500962027 /* Release */ = {
+		C5C0ECFC2DAB877600A8AA7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -591,11 +574,11 @@
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StressWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StressWatchApp Watch App";
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
 			};
 			name = Release;
 		};
-		C5FEC8DA2DAA63B500962027 /* Debug */ = {
+		C5C0ECFE2DAB877600A8AA7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -614,7 +597,7 @@
 			};
 			name = Debug;
 		};
-		C5FEC8DB2DAA63B500962027 /* Release */ = {
+		C5C0ECFF2DAB877600A8AA7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -637,52 +620,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C5FEC8A32DAA63B300962027 /* Build configuration list for PBXProject "StressWatchApp" */ = {
+		C5C0ECC72DAB877400A8AA7D /* Build configuration list for PBXProject "StressWatchApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C5FEC8CD2DAA63B500962027 /* Debug */,
-				C5FEC8CE2DAA63B500962027 /* Release */,
+				C5C0ECF12DAB877600A8AA7D /* Debug */,
+				C5C0ECF22DAB877600A8AA7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5FEC8CF2DAA63B500962027 /* Build configuration list for PBXNativeTarget "StressWatchApp Watch App" */ = {
+		C5C0ECF32DAB877600A8AA7D /* Build configuration list for PBXNativeTarget "StressWatchApp Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C5FEC8D02DAA63B500962027 /* Debug */,
-				C5FEC8D12DAA63B500962027 /* Release */,
+				C5C0ECF42DAB877600A8AA7D /* Debug */,
+				C5C0ECF52DAB877600A8AA7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5FEC8D32DAA63B500962027 /* Build configuration list for PBXNativeTarget "StressWatchApp" */ = {
+		C5C0ECF72DAB877600A8AA7D /* Build configuration list for PBXNativeTarget "StressWatchApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C5FEC8D42DAA63B500962027 /* Debug */,
-				C5FEC8D52DAA63B500962027 /* Release */,
+				C5C0ECF82DAB877600A8AA7D /* Debug */,
+				C5C0ECF92DAB877600A8AA7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5FEC8D62DAA63B500962027 /* Build configuration list for PBXNativeTarget "StressWatchApp Watch AppTests" */ = {
+		C5C0ECFA2DAB877600A8AA7D /* Build configuration list for PBXNativeTarget "StressWatchApp Watch AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C5FEC8D72DAA63B500962027 /* Debug */,
-				C5FEC8D82DAA63B500962027 /* Release */,
+				C5C0ECFB2DAB877600A8AA7D /* Debug */,
+				C5C0ECFC2DAB877600A8AA7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5FEC8D92DAA63B500962027 /* Build configuration list for PBXNativeTarget "StressWatchApp Watch AppUITests" */ = {
+		C5C0ECFD2DAB877600A8AA7D /* Build configuration list for PBXNativeTarget "StressWatchApp Watch AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C5FEC8DA2DAA63B500962027 /* Debug */,
-				C5FEC8DB2DAA63B500962027 /* Release */,
+				C5C0ECFE2DAB877600A8AA7D /* Debug */,
+				C5C0ECFF2DAB877600A8AA7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C5FEC8A02DAA63B300962027 /* Project object */;
+	rootObject = C5C0ECC42DAB877400A8AA7D /* Project object */;
 }
