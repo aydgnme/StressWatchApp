@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   Info.plist
-   StressWatchApp
-
-   Created by Mert Aydoğan on 12.04.2025.
-   Copyright (c) 2025 ___ORGANIZATIONNAME___. All rights reserved.
--->
 <plist version="1.0">
-<dict/>
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>StressWatchApp</string>
+    <key>CFBundleIdentifier</key>
+    <string>aydgn.me.StressWatchApp.watchkitapp</string>
+    <key>CFBundleName</key>
+    <string>StressWatchApp</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>MinimumOSVersion</key>
+    <string>9.0</string>
+    <key>WKInterfaceOrientation</key>
+    <string>Portrait</string>
+    <key>NSHealthShareUsageDescription</key>
+    <string>This app reads your health data (e.g. heart rate variability) and asks for your consent to provide you with better services.</string>
+</dict>
 </plist>

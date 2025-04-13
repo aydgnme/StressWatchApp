@@ -9,10 +9,11 @@ import SwiftUI
 
 struct ColorfulBar: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        LinearGradient(
+            colors: [.red, .orange, .yellow, .green, .blue, .purple],
+            startPoint: .leading,
+            endPoint: .trailing
+        )
+        .cornerRadius(3)
     }
-}
-
-#Preview {
-    ColorfulBar()
 }

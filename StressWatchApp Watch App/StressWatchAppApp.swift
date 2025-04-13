@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct StressWatchApp_Watch_AppApp: App {
+struct StressWatchAppApp: App {
+    @StateObject private var hrvManager = HRVManager()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(hrvManager)
         }
     }
 }

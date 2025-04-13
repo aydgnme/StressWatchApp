@@ -10,32 +10,35 @@ import XCTest
 final class StressWatchApp_Watch_AppUITests: XCTestCase {
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    override func tearDownWithError() throws {}
 
     @MainActor
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+    func testContentViewElementsExist() throws {
         let app = XCUIApplication()
         app.launch()
+        
+        // 1. Check if HRV value (bpm) text exists
+        let hrvValue = app.staticTexts.element(boundBy: 0)
+        XCTAssertTrue(hrvValue.exists, "HRV value (bpm) is not visible.")
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+        // 2. Check if "bpm" label exists
+        let bpmLabel = app.staticTexts["bpm"]
+        XCTAssertTrue(bpmLabel.exists, "The 'bpm' label is not visible.")
 
-    @MainActor
-    func testLaunchPerformance() throws {
-        // This measures how long it takes to launch your application.
-        measure(metrics: [XCTApplicationLaunchMetric()]) {
-            XCUIApplication().launch()
-        }
+        // 3. Check if the emoji is displayed
+        let emoji = app.staticTexts.containing(NSPredicate(format: "label MATCHES %@", "😵‍💫|😰|😟|🙂|😌|🧘")).element
+        XCTAssertTrue(emoji.exists, "The emoji is not visible.")
+
+        // 4. Check if the info button exists
+        let infoButton = app.images["info"] // Using SF Symbol "info"
+        XCTAssertTrue(infoButton.exists, "The info button is not visible.")
+
+        // 5. Check if the clock text exists
+        // Since the clock text is dynamic, just check if it exists
+        let clockText = app.staticTexts.element(boundBy: 2) // Typically the third static text
+        XCTAssertTrue(clockText.exists, "The clock text is not visible.")
     }
 }

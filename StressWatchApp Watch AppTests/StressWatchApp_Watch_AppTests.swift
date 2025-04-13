@@ -10,8 +10,15 @@ import Testing
 
 struct StressWatchApp_Watch_AppTests {
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    @Test func testInitialHRVValueIsZero() async throws {
+        let manager = HRVManager()
+        #expect(manager.hrvValue == 0.0)
+    }
+    
+    @Test func testManualHRVSetting() async throws {
+        let manager = HRVManager()
+        manager.hrvValue = 55.0
+        #expect(manager.hrvValue == 55.0)
     }
 
 }

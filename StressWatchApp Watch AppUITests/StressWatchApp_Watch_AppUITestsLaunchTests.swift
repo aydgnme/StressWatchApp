@@ -22,11 +22,26 @@ final class StressWatchApp_Watch_AppUITestsLaunchTests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
-        // Insert steps here to perform after app launch but before taking a screenshot,
-        // such as logging into a test account or navigating somewhere in the app
-
         let attachment = XCTAttachment(screenshot: app.screenshot())
         attachment.name = "Launch Screen"
+        attachment.lifetime = .keepAlways
+        add(attachment)
+    }
+    
+    @MainActor
+    func testLaunchAndNavigate() throws {
+        let app = XCUIApplication()
+        app.launch()
+
+        // Example: Tap the Info button
+        let infoButton = app.buttons["infoButton"]
+        if infoButton.exists {
+            infoButton.tap()
+        }
+        
+        // Take a screenshot after tapping the Info button
+        let attachment = XCTAttachment(screenshot: app.screenshot())
+        attachment.name = "After Tapping Info Button"
         attachment.lifetime = .keepAlways
         add(attachment)
     }
